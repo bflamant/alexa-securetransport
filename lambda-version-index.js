@@ -17,10 +17,10 @@ const Alexa = require('alexa-sdk');
 
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this: const APP_ID = 'amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1';
-const APP_ID = undefined;
+const APP_ID = 'amzn1.ask.skill.f93699c2-aca8-49e0-8dba-71cf52314e0d';
 
-const SKILL_NAME = 'SecureTrasnport AI';
-const GET_FACT_MESSAGE = "Here's your Secure Transport information: ";
+const SKILL_NAME = 'SecureTransport AI';
+const GET_FACT_MESSAGE = "Here's your Secure Transport info: ";
 const HELP_MESSAGE = 'You can say tell me the SecureTransport version, or, you can say exit... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Thanks, goodbye!';
