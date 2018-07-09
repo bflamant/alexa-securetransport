@@ -32,7 +32,7 @@ const data = [
     'it seems that you are running Secure Transport v5.4',
     'SecureTransport v.5.4.0 build 5147 for Linux x86-64',
     'your server is running on SecureTransport version 5.4.0',
-    'Dude, i\'m too tired for that shit, please come back later!',    
+    'Dude, i\'m too tired for that shit, ask me later!',    
 ];
 
 //=========================================================================================================================================
@@ -41,9 +41,9 @@ const data = [
 
 const handlers = {
     'LaunchRequest': function () {
-        this.emit('GetNewFactIntent');
+        this.emit('GetVersionBuildOSIntent');
     },
-    'GetNewFactIntent': function () {
+    'GetVersionBuildOSIntent': function () {
         const factArr = data;
         const factIndex = Math.floor(Math.random() * factArr.length);
         const randomFact = factArr[factIndex];
