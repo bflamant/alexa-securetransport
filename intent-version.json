@@ -4,10 +4,6 @@
             "invocationName": "secure transport",
             "intents": [
                 {
-                    "name": "AMAZON.FallbackIntent",
-                    "samples": []
-                },
-                {
                     "name": "AMAZON.CancelIntent",
                     "samples": []
                 },
@@ -20,19 +16,17 @@
                     "samples": []
                 },
                 {
-                    "name": "GetVersionBuildOSIntent",
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetVersionIntent",
                     "slots": [],
                     "samples": [
-                        "the version",
-                        "the secure transport version",
-                        "tell me the version",
-                        "tell me the secure transport version",
                         "give me the version",
-                        "give me the secure transport version",
-                        "give me some information",
-                        "give me some secure transport information",
-                        "tell me everything about secure transport",
-                        "give me everything about secure transport"
+                        "tell me the version",
+                        "a version",
+                        "give me some information"
                     ]
                 }
             ],
